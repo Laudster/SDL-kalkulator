@@ -1,0 +1,32 @@
+﻿  Main.c
+C:\Users\amund\source\repos\Kalkulator\Kalkulator\Main.c(58,26): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\amund\source\repos\Kalkulator\Kalkulator\Main.c(268,46): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\Users\amund\source\repos\Kalkulator\Kalkulator\Main.c(545,76): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+Main.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function _render
+Main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function _initialiser_vindu
+Main.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function _quit
+Main.obj : error LNK2019: unresolved external symbol _SDL_GetMouseState referenced in function _inndata_prosessering
+Main.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function _inndata_prosessering
+Main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function _initialiser_vindu
+Main.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function _setup
+Main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function _render
+Main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function _render
+Main.obj : error LNK2019: unresolved external symbol _SDL_RenderFillRect referenced in function _render
+Main.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function _render
+Main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function _render
+Main.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function _quit
+Main.obj : error LNK2019: unresolved external symbol _SDL_GetTicks referenced in function _oppdater
+Main.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function _oppdater
+Main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _initialiser_vindu
+Main.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function _quit
+Main.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function _setup
+Main.obj : error LNK2019: unresolved external symbol _TTF_OpenFont referenced in function _setup
+Main.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Solid referenced in function _setup
+Main.obj : error LNK2019: unresolved external symbol _TTF_CloseFont referenced in function _quit
+Main.obj : error LNK2019: unresolved external symbol _TTF_Quit referenced in function _quit
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\SDL\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL\SDL2_ttf-2.22.0\lib\x64\SDL2_ttf.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SDL\SDL2_mixer-2.8.0\lib\x64\SDL2_mixer.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\amund\source\repos\Kalkulator\Debug\Kalkulator.exe : fatal error LNK1120: 23 unresolved externals

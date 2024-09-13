@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Users\amund\source\repos\Kalkulator\Kalkulator\Main.c(58,26): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\Users\amund\source\repos\Kalkulator\Kalkulator\Main.c(545,76): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Kalkulator.vcxproj -> C:\Users\amund\source\repos\Kalkulator\x64\Release\Kalkulator.lib
